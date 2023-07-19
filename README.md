@@ -14,14 +14,19 @@
 ### login
 
 -API login
+
 -Công dụng: đăng nhập
+
 -Url:http://localhost:3000/api/admin/login
+
 -method: Post
+
 -Request:
 {
    "Username" : "admin",
    "Password" : "12345"
 }
+
 -Response:
 {
     "success": true,
