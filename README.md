@@ -26,12 +26,8 @@ Request:
 ```json
 
 {
-
    "username": "admin",
-
    "password": "12345"
-   
-
 }
 
 ```
@@ -41,13 +37,9 @@ Response:
 ```json
 
 {
-
     "success": true,
-    
     "message": "Authentication successful",
-    
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODk3NDgwMjQsImV4cCI6MTY4OTc1MTYyNH0.UZkT4s3drmJKhEIps2s6LVEBdO7TwkQ_iW0jmgpNL5s"
-    
 }
 
 ```
@@ -73,13 +65,9 @@ Response:
 ```json
 
 {
-
     "success": true,
-
     "message": "Token is valid",
-
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODk3NDgwMjQsImV4cCI6MTY4OTc1MTYyNH0.UZkT4s3drmJKhEIps2s6LVEBdO7TwkQ_iW0jmgpNL5s"
-
 }
 
 ```
