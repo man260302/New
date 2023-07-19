@@ -9,35 +9,22 @@
 `+07:00[Asia/Bangkok]`: Múi giờ
 
 
-
-# Nhân viên
-
 ## Quyền truy cập: Admin
 
 ### login
 
-Url: `http://localhost:3000/api/admin/login`
-
-Method: `POST`
-
-Body:
-
-```raw + json
-
-```
-Response:
-
-```raw + json
+-API login
+-Công dụng: đăng nhập
+-Url:http://localhost:3000/api/admin/login
+-method: Post
+-Request:
 {
-    "status": "OK",
-    "message": "Đọc Thành Công",
-    "amount": 0,
-    "data": [
-        {
-		"employeeId": "643f4ea23ef68011c2177816",
-		"username": "admin",
-		"password": "12345"
-        }
-	]
+   "Username" : "admin",
+   "Password" : "12345"
+}
+-Response:
 {
-```
+    "success": true,
+    "message": "Authentication successful",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODk3NDgwMjQsImV4cCI6MTY4OTc1MTYyNH0.UZkT4s3drmJKhEIps2s6LVEBdO7TwkQ_iW0jmgpNL5s"
+}
