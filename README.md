@@ -16,7 +16,7 @@
 
 ### login
 
-Url: `(http://localhost:3000/api/admin/login)`
+Url: `http://localhost:3000/api/admin/login`
 
 Method: `POST`
 
@@ -24,7 +24,6 @@ Body:
 
 ```raw + json
 
-```
 
 Response:
 
