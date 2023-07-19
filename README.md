@@ -13,25 +13,26 @@
 
 ### login
 
--API login
+API login
 
--Công dụng: đăng nhập
+Công dụng: đăng nhập
 
--Url:http://localhost:3000/api/admin/login
+Url:http://localhost:3000/api/admin/login
 
--method: Post
+Method: Post
 
--Request:
+Request:
 
 {
 
-   "Username" : "admin",
+   "username": "admin",
+
+   "password": "12345"
    
-   "Password" : "12345"
-   
+
 }
 
--Response:
+Response:
 
 {
 
