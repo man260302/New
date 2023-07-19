@@ -22,14 +22,23 @@
 -method: Post
 
 -Request:
+
 {
+
    "Username" : "admin",
+   
    "Password" : "12345"
+   
 }
 
 -Response:
+
 {
+
     "success": true,
+    
     "message": "Authentication successful",
+    
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODk3NDgwMjQsImV4cCI6MTY4OTc1MTYyNH0.UZkT4s3drmJKhEIps2s6LVEBdO7TwkQ_iW0jmgpNL5s"
+    
 }
