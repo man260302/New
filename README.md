@@ -21,11 +21,6 @@ Url:http://localhost:3000/api/admin/login
 
 Method: Post
 
-Body:
-
-```raw + json
-
-```
 Request:
 
 ```raw + json
@@ -40,8 +35,6 @@ Request:
 }
 
 Response:
-
-```raw + json
 
 {
 
