@@ -13,7 +13,7 @@
 
 ### login
 
-API login
+API: login
 
 Công dụng: đăng nhập
 
@@ -23,7 +23,7 @@ Method: Post
 
 Request:
 
-```raw + json
+```json
 
 {
 
@@ -38,7 +38,7 @@ Request:
 
 Response:
 
-```raw + json
+```json
 
 {
 
@@ -54,32 +54,27 @@ Response:
 
 ### Check token
 
-API login
+API: token
 
-Công dụng: đăng nhập
+Công dụng: check token đăng nhập
 
-Url:http://localhost:3000/api/admin/login
+Url:http://localhost:3000/api/admin/token
 
-Method: Post
+Method: Get
 
 Request:
 
-```raw + json
+``` json
 
-{
-
-   "username": "admin",
-
-   "password": "12345"
-   
-
-}
+| Key              | Value                                                                                                                            |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| x-access-token   | eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODk3NDgwMjQsImV4cCI6MTY4OTc1MTYyNH0.UZkT4s3drmJKhEIps2s6LVEBdO7TwkQ_iW0jmgpNL5s |
 
 ```
 
 Response:
 
-```raw + json
+```json
 
 {
 
