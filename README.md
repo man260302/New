@@ -2,37 +2,27 @@
 
 ## Phân tích:
 
-`2023-03-27T13:28:50.278352600+07:00[Asia/Bangkok]`
+`2023-07-19`: Năm - Tháng - Ngày
 
-`2023-03-27` : Năm - Tháng - Ngày
-
-`T` : Ký tự để phân tách
-
-`13:28:50.278352600`: Giờ : Phút : Giây
+`---------`: Giờ : Phút : Giây
 
 `+07:00[Asia/Bangkok]`: Múi giờ
 
-## Phân tích:
 
-`CC-346c849e-e04b-4cc8-b573-a051f84571c5`
-
-`CC-` : Viết tắt của `Chấm Công` `346c849e-e04b-4cc8-b573-a051f84571c5` : Mã tự sinh
-
----
 
 # Nhân viên
 
-## Quyền truy cập: Manager
+## Quyền truy cập: Admin
 
-### Xem tất cả nhân viên
+### login
 
-Url: `https://be-intern.onrender.com/api/v2/employee/`
+Url: `(http://localhost:3000/api/admin/login)`
 
-Method: `GET`
+Method: `POST`
 
 Body:
 
-```json
+```raw + json
 
 ```
 
