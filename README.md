@@ -120,4 +120,37 @@ Response:
 ]
 
 ```
+### Categories
+
+API: post name categories
+
+Công dụng: đăng các categories lên
+
+Url:http://localhost:3000/api/admin/categories
+
+Method: Post
+
+Request:
++ Headers:
+
+| Key           | Value         |
+|---------------|---------------|
+|x-access-token |eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODk3NDgwMjQsImV4cCI6MTY4OTc1MTYyNH0.UZkT4s3drmJKhEIps2s6LVEBdO7TwkQ_iW0jmgpNL5s |
+
++ Body
+  
+```json
+{
+    "name": "iPad"
+}
+```
+
+Response:
+
+```json
+{
+    "_id": "64b7fdd7dd1100adf12fb6f8",
+    "name": "iPad"
+}
+```
 
